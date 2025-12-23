@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4B94B14A2EFAA48F0034EE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B94B1342EFAA48E0034EE3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B94B13B2EFAA48E0034EE3E;
+			remoteInfo = SQLiteCarDatabase;
+		};
+		4B94B1542EFAA48F0034EE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B94B1342EFAA48E0034EE3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B94B13B2EFAA48E0034EE3E;
+			remoteInfo = SQLiteCarDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B94B13C2EFAA48E0034EE3E /* SQLiteCarDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteCarDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B94B1492EFAA48F0034EE3E /* SQLiteCarDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteCarDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B94B1532EFAA48F0034EE3E /* SQLiteCarDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteCarDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SQLiteCarDatabase;
+			sourceTree = "<group>";
+		};
+		4B94B14C2EFAA48F0034EE3E /* SQLiteCarDatabaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SQLiteCarDatabaseTests;
+			sourceTree = "<group>";
+		};
+		4B94B1562EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SQLiteCarDatabaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B94B1392EFAA48E0034EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B1462EFAA48F0034EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B1502EFAA48F0034EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B94B1332EFAA48E0034EE3E = {
+			isa = PBXGroup;
+			children = (
+				4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */,
+				4B94B14C2EFAA48F0034EE3E /* SQLiteCarDatabaseTests */,
+				4B94B1562EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */,
+				4B94B13D2EFAA48E0034EE3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B94B13D2EFAA48E0034EE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B94B13C2EFAA48E0034EE3E /* SQLiteCarDatabase.app */,
+				4B94B1492EFAA48F0034EE3E /* SQLiteCarDatabaseTests.xctest */,
+				4B94B1532EFAA48F0034EE3E /* SQLiteCarDatabaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B94B13B2EFAA48E0034EE3E /* SQLiteCarDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B94B15D2EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabase" */;
+			buildPhases = (
+				4B94B1382EFAA48E0034EE3E /* Sources */,
+				4B94B1392EFAA48E0034EE3E /* Frameworks */,
+				4B94B13A2EFAA48E0034EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */,
+			);
+			name = SQLiteCarDatabase;
+			packageProductDependencies = (
+			);
+			productName = SQLiteCarDatabase;
+			productReference = 4B94B13C2EFAA48E0034EE3E /* SQLiteCarDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B94B1482EFAA48F0034EE3E /* SQLiteCarDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B94B1602EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabaseTests" */;
+			buildPhases = (
+				4B94B1452EFAA48F0034EE3E /* Sources */,
+				4B94B1462EFAA48F0034EE3E /* Frameworks */,
+				4B94B1472EFAA48F0034EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B94B14B2EFAA48F0034EE3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B94B14C2EFAA48F0034EE3E /* SQLiteCarDatabaseTests */,
+			);
+			name = SQLiteCarDatabaseTests;
+			packageProductDependencies = (
+			);
+			productName = SQLiteCarDatabaseTests;
+			productReference = 4B94B1492EFAA48F0034EE3E /* SQLiteCarDatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B94B1522EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B94B1632EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabaseUITests" */;
+			buildPhases = (
+				4B94B14F2EFAA48F0034EE3E /* Sources */,
+				4B94B1502EFAA48F0034EE3E /* Frameworks */,
+				4B94B1512EFAA48F0034EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B94B1552EFAA48F0034EE3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B94B1562EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */,
+			);
+			name = SQLiteCarDatabaseUITests;
+			packageProductDependencies = (
+			);
+			productName = SQLiteCarDatabaseUITests;
+			productReference = 4B94B1532EFAA48F0034EE3E /* SQLiteCarDatabaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B94B1342EFAA48E0034EE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					4B94B13B2EFAA48E0034EE3E = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					4B94B1482EFAA48F0034EE3E = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 4B94B13B2EFAA48E0034EE3E;
+					};
+					4B94B1522EFAA48F0034EE3E = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 4B94B13B2EFAA48E0034EE3E;
+					};
+				};
+			};
+			buildConfigurationList = 4B94B1372EFAA48E0034EE3E /* Build configuration list for PBXProject "SQLiteCarDatabase" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B94B1332EFAA48E0034EE3E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B94B13D2EFAA48E0034EE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B94B13B2EFAA48E0034EE3E /* SQLiteCarDatabase */,
+				4B94B1482EFAA48F0034EE3E /* SQLiteCarDatabaseTests */,
+				4B94B1522EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B94B13A2EFAA48E0034EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B1472EFAA48F0034EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B1512EFAA48F0034EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B94B1382EFAA48E0034EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B1452EFAA48F0034EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B94B14F2EFAA48F0034EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B94B14B2EFAA48F0034EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B94B13B2EFAA48E0034EE3E /* SQLiteCarDatabase */;
+			targetProxy = 4B94B14A2EFAA48F0034EE3E /* PBXContainerItemProxy */;
+		};
+		4B94B1552EFAA48F0034EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B94B13B2EFAA48E0034EE3E /* SQLiteCarDatabase */;
+			targetProxy = 4B94B1542EFAA48F0034EE3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B94B15B2EFAA48F0034EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B94B15C2EFAA48F0034EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B94B15E2EFAA48F0034EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B94B15F2EFAA48F0034EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B94B1612EFAA48F0034EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteCarDatabase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLiteCarDatabase";
+			};
+			name = Debug;
+		};
+		4B94B1622EFAA48F0034EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteCarDatabase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLiteCarDatabase";
+			};
+			name = Release;
+		};
+		4B94B1642EFAA48F0034EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteCarDatabase;
+			};
+			name = Debug;
+		};
+		4B94B1652EFAA48F0034EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trebuh001.SQLiteCarDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteCarDatabase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B94B1372EFAA48E0034EE3E /* Build configuration list for PBXProject "SQLiteCarDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B94B15B2EFAA48F0034EE3E /* Debug */,
+				4B94B15C2EFAA48F0034EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B94B15D2EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B94B15E2EFAA48F0034EE3E /* Debug */,
+				4B94B15F2EFAA48F0034EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B94B1602EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B94B1612EFAA48F0034EE3E /* Debug */,
+				4B94B1622EFAA48F0034EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B94B1632EFAA48F0034EE3E /* Build configuration list for PBXNativeTarget "SQLiteCarDatabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B94B1642EFAA48F0034EE3E /* Debug */,
+				4B94B1652EFAA48F0034EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B94B1342EFAA48E0034EE3E /* Project object */;
+}
