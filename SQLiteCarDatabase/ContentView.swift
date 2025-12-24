@@ -9,10 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("SQLite Car Database Project")
+        ZStack {
+            VStack {
+                Text("SQLite Car Database")
+                    .font(.custom("Roboto-Bold", size: 24))
+                    .padding(.top, 16)
+                Spacer()
+            }
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.green)
     }
 }
 
