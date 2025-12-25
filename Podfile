@@ -6,6 +6,7 @@ target 'SQLiteCarDatabase' do
   use_frameworks!
 
   # Pods for SQLiteCarDatabase
+  pod 'R.swift'
 
   target 'SQLiteCarDatabaseTests' do
     inherit! :search_paths

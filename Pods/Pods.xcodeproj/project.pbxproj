@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020891B8DBB7563A45357ED261CD5FB3 /* ColorResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */; };
+		0718CB1A15D89FACC437E38675703DD5 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */; };
+		1349234165FADA4114A6C9F7906D4349 /* FontResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */; };
+		147D63BFAC30F63D8666CBB08A5C640E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		23D496175EBA3774AB22370C29FC0B97 /* Pods-SQLiteCarDatabaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA11A2BA6D130775DE5BA395D3577F76 /* Pods-SQLiteCarDatabaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27093D2C5DCCE8226BC0CAC93F924858 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */; };
+		31C6FEAB5D1205B6E687077AFFDE5384 /* FileResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */; };
+		32EF1EF97440878F4F742A06F9173FB4 /* ReuseIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */; };
+		38879404CDE8E6484B31B72CA32CAB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3B3A25E4844013919D04B9475C39609D /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */; };
+		3CACC1BE73EC19170BE1F06DB01E4001 /* DeploymentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */; };
+		4F6FADA93E698823F866AD21EE09B4A8 /* Unifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C482F10A390654E35292751252B7F3 /* Unifiable.swift */; };
+		500EEC5A101486742FDEBA4251BFA340 /* ImageResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */; };
+		5C6792D7FE0D65D94BFAFF2D58DFC25D /* AssetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */; };
+		5D36C7705D9128EA05833317ACD36737 /* Pods-SQLiteCarDatabaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76AEFCDF5F0C8C92E5A04B67AAD80C6 /* Pods-SQLiteCarDatabaseTests-dummy.m */; };
+		67A9C5A90CB423CF2ADD7F024937FDA6 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */; };
+		6BFD8CF356572A67B8EAB4455CA2EF32 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C9419AE41881B9830592748AE097F /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m */; };
+		6D62B796DD30B4B3AC0618AF7C0C12C0 /* Pods-SQLiteCarDatabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FFFC7E7B53BD643618F8D1F86FFD5 /* Pods-SQLiteCarDatabase-dummy.m */; };
+		76EBCA468C6E4B204D23D6CC37748BB8 /* DataResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */; };
+		778866614CD49C69A0DCFF0198D4D0E2 /* StringResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */; };
+		7FDC43F578BCF977616DCE517F634A8D /* PropertyListResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */; };
+		86A400692742D9B65E2C73CFC87C5862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		877D8F603DBCA622C99D71A6AF7AE861 /* NameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */; };
+		87CFC5496AE03F0A59BC7788A8C25810 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A63DF3579CF16FB9FB714500E494A1E /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9657283C2834C4C9A272E328101151F8 /* ModuleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */; };
+		996918C542708D92D90A67FD1D16A4B3 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */; };
+		9AF02522D5957F6CAD775F1AF2A03E6A /* TypeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */; };
+		A5AAD357854CD447259D751B55D8D744 /* R.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */; };
+		AAA4FDF159D2426DB93F592141534271 /* R.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30659D96396326C7A2CA95F524E0FA6 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */; };
+		B8668BE11DEF6CB85A1ACFB2D4ABEDDA /* StringsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */; };
+		B97A55F85AE8E29295FE4DCEFEE922B1 /* NibReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */; };
+		BB784F05578026D25CBE7FC465085AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		BC222EBB01AD730C4A2F245472EDFF72 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */; };
+		BEF22AFAFE107C997B0ACD7143A7938B /* Pods-SQLiteCarDatabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF82D28A4CC0C2818BD3FA4265717E2 /* Pods-SQLiteCarDatabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0382725FF8360EC4C26537FE319C1F2 /* LocaleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */; };
+		C3E4AAD2EAB37883F5F361FA5DB5F20F /* DataResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */; };
+		CA604F841BCE79F1A7B378583F794D6E /* StringParam+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */; };
+		CB1D78A91078E4D00486A07F7D1449B7 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */; };
+		CEFC6C72EE2C964B0998FEC1B687FA6F /* SegueIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */; };
+		D640820D8F2333F1FC2953B78D186FEF /* StoryboardReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */; };
+		ED60A5DC1FBA322B8829D17DACF25FC5 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */; };
+		F3620ACD4DD871900B4F47F927EDFD86 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */; };
+		F36718AFEBB9AF283D159FD32544826E /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */; };
+		FBCF2E627085A82784544DF73801DB07 /* StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10BDD51663CD2C924F84E3AF471E0753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		22F599D910127081C98316A1195FFB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		B45A692073CDB08939E4EF51FDB78E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1CD86F0C3F9BDB76B88DBDD09A76DC;
+			remoteInfo = "Pods-SQLiteCarDatabase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListResource.swift; path = Sources/RswiftResources/PropertyListResource.swift; sourceTree = "<group>"; };
+		05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Sources/RswiftResources/ColorResource.swift; sourceTree = "<group>"; };
+		063C9419AE41881B9830592748AE097F /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m"; sourceTree = "<group>"; };
+		074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeReference.swift; path = Sources/RswiftResources/Shared/TypeReference.swift; sourceTree = "<group>"; };
+		0D5B94FFFD496139409A62070C413FA0 /* Pods-SQLiteCarDatabaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1639E2CFA49D8B437B2F2BCC2B21E9EB /* Pods-SQLiteCarDatabaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/RswiftResources/Shared/Reusable.swift; sourceTree = "<group>"; };
+		28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Sources/RswiftResources/NibResource.swift; sourceTree = "<group>"; };
+		29C482F10A390654E35292751252B7F3 /* Unifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unifiable.swift; path = Sources/RswiftResources/Shared/Unifiable.swift; sourceTree = "<group>"; };
+		2A63DF3579CF16FB9FB714500E494A1E /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringParam+Extensions.swift"; path = "Sources/RswiftResources/Shared/StringParam+Extensions.swift"; sourceTree = "<group>"; };
+		36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StoryboardReference+Integrations.swift"; sourceTree = "<group>"; };
+		37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleReference.swift; path = Sources/RswiftResources/Shared/ModuleReference.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39275D270222E7DAD6F8BE35A1695E69 /* Pods-SQLiteCarDatabase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SQLiteCarDatabase"; path = Pods_SQLiteCarDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = R.swift; path = RswiftResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Sources/RswiftResources/FontResource.swift; sourceTree = "<group>"; };
+		529520BF316A0D5157EEAC4D7A87C4BB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegueIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/SegueIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ImageResource+Integrations.swift"; sourceTree = "<group>"; };
+		5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataResource.swift; path = Sources/RswiftResources/DataResource.swift; sourceTree = "<group>"; };
+		5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StringResource+Integrations.swift"; sourceTree = "<group>"; };
+		5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Sources/RswiftResources/StringResource.swift; sourceTree = "<group>"; };
+		626FFFC7E7B53BD643618F8D1F86FFD5 /* Pods-SQLiteCarDatabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLiteCarDatabase-dummy.m"; sourceTree = "<group>"; };
+		65BDDAECE84C689969C427BAE2305F1C /* Pods-SQLiteCarDatabaseTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabaseTests-Info.plist"; sourceTree = "<group>"; };
+		6A6328711A4B7556A8DBC7EED8CCCD71 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-Info.plist"; sourceTree = "<group>"; };
+		6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Sources/RswiftResources/StoryboardResource.swift; sourceTree = "<group>"; };
+		6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift-dummy.m"; sourceTree = "<group>"; };
+		787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FileResource+Integrations.swift"; sourceTree = "<group>"; };
+		7890AD12FD86AF7D19C9FE9434CBD222 /* Pods-SQLiteCarDatabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleReference.swift; path = Sources/RswiftResources/Shared/LocaleReference.swift; sourceTree = "<group>"; };
+		85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Sources/RswiftResources/Shared/ValidationError.swift; sourceTree = "<group>"; };
+		883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ColorResource+Integrations.swift"; sourceTree = "<group>"; };
+		88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Sources/RswiftResources/ImageResource.swift; sourceTree = "<group>"; };
+		8F4C3D468238A793EAFD3C4B00946122 /* Pods-SQLiteCarDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		90BDD5C04657651E31816D48DA16BA97 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Sources/RswiftResources/Integrations/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetCatalog.swift; path = Sources/RswiftResources/AssetCatalog.swift; sourceTree = "<group>"; };
+		96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringsTable.swift; path = Sources/RswiftResources/Shared/StringsTable.swift; sourceTree = "<group>"; };
+		98C056F9952843C0B9698537F4A571FB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		9E56B46A6438F2EEDADA5177E7B13F48 /* Pods-SQLiteCarDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLiteCarDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		A241B63F0606DD7BCA9F553581FFC971 /* Pods-SQLiteCarDatabaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLiteCarDatabaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A76AEFCDF5F0C8C92E5A04B67AAD80C6 /* Pods-SQLiteCarDatabaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLiteCarDatabaseTests-dummy.m"; sourceTree = "<group>"; };
+		A9FB4BADBE5F8BC43F4B4BCE36886429 /* R.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.modulemap; sourceTree = "<group>"; };
+		AAF62FFF1750C6164E6A41B800C91805 /* Pods-SQLiteCarDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLiteCarDatabase.modulemap"; sourceTree = "<group>"; };
+		B1770D8D5A331F403CA4CC1E47242F3D /* Pods-SQLiteCarDatabase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLiteCarDatabase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B257099744F0C798AC3F85CCC3873E83 /* Pods-SQLiteCarDatabase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQLiteCarDatabase-frameworks.sh"; sourceTree = "<group>"; };
+		B2A67CC5077011EA87B5DED30A5BDCBD /* Pods-SQLiteCarDatabaseTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SQLiteCarDatabaseTests"; path = Pods_SQLiteCarDatabaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
+		BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardReference.swift; path = Sources/RswiftResources/Shared/StoryboardReference.swift; sourceTree = "<group>"; };
+		BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameCatalog.swift; path = Sources/RswiftResources/Shared/NameCatalog.swift; sourceTree = "<group>"; };
+		C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FontResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FontResource+Integrations.swift"; sourceTree = "<group>"; };
+		C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReuseIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ReuseIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		C301A50304E9DD7337C6D3EF4FCCE19E /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.modulemap"; sourceTree = "<group>"; };
+		C491241F7F276878ABB6640114235CC3 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9CD3A77090B01FB2F0933F9E5341D1D /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-umbrella.h"; sourceTree = "<group>"; };
+		CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeploymentTarget.swift; path = Sources/RswiftResources/Shared/DeploymentTarget.swift; sourceTree = "<group>"; };
+		CCE402641C26549271DE793F8118854B /* Pods-SQLiteCarDatabaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLiteCarDatabaseTests.modulemap"; sourceTree = "<group>"; };
+		DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Sources/RswiftResources/FileResource.swift; sourceTree = "<group>"; };
+		DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/NibReference+Integrations.swift"; sourceTree = "<group>"; };
+		E140A0F464C9E595AEE02472FC7077C8 /* Pods-SQLiteCarDatabase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabase-acknowledgements.plist"; sourceTree = "<group>"; };
+		E862454E3E303DD9D7CE69DC2F358ED6 /* R.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-prefix.pch"; sourceTree = "<group>"; };
+		EA11A2BA6D130775DE5BA395D3577F76 /* Pods-SQLiteCarDatabaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLiteCarDatabaseTests-umbrella.h"; sourceTree = "<group>"; };
+		EC6B7A553ACAD8CC5E24F5DE3919681B /* R.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift-Info.plist"; sourceTree = "<group>"; };
+		EFF82D28A4CC0C2818BD3FA4265717E2 /* Pods-SQLiteCarDatabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLiteCarDatabase-umbrella.h"; sourceTree = "<group>"; };
+		F545971A191C6E1B7777AB6050235A70 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests"; path = Pods_SQLiteCarDatabase_SQLiteCarDatabaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParam.swift; path = Sources/RswiftResources/Shared/StringParam.swift; sourceTree = "<group>"; };
+		FC31844B2EE1759D87D7B52EE32358A5 /* Pods-SQLiteCarDatabase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLiteCarDatabase-Info.plist"; sourceTree = "<group>"; };
+		FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/DataResource+Integrations.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3872D7F60AC4BFDF1816AC7DA51FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A400692742D9B65E2C73CFC87C5862 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DD12B9024C10DE7B2332967DEFE52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38879404CDE8E6484B31B72CA32CAB6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7CCC299FCFAEB895DECFA0EE3F745B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147D63BFAC30F63D8666CBB08A5C640E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B687EBC723AF5B491D478F28AC16E59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB784F05578026D25CBE7FC465085AC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669A6AE0DC95512B77AF70E53438F2C2 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				956E54C8E80444675BE8068425844662 /* AssetCatalog.swift */,
+				91FA7D4B5103C7533296726D9B7323BE /* Bundle+Extensions.swift */,
+				05DA7CAED0ADEA7AC3E444B7A964A3B1 /* ColorResource.swift */,
+				883F9465AE667DD9F34090118EB8417F /* ColorResource+Integrations.swift */,
+				5B7E7C8A723D572B2E7A5255B7D6B69C /* DataResource.swift */,
+				FED11776787CE6D9620231AB62FA1CD1 /* DataResource+Integrations.swift */,
+				CAD84CC9C65C0BB1C52AE4446DB578AB /* DeploymentTarget.swift */,
+				DABF3686E128A8C57DBB6C97AC8DE209 /* FileResource.swift */,
+				787A243176323D3E7316E71391742F01 /* FileResource+Integrations.swift */,
+				46E1A299AC67D904C889ED3B0720E6E7 /* FontResource.swift */,
+				C29547CE7C378AC031514D4FD9C5DA92 /* FontResource+Integrations.swift */,
+				88D7EA7A2E0F3944B42AF18FC7ECA197 /* ImageResource.swift */,
+				59EDDA4FA7B0657AF562ECEB41FB14EF /* ImageResource+Integrations.swift */,
+				7B905F769BF1ABF241755A6E7673D884 /* LocaleReference.swift */,
+				37484A28854CE62C9B3D3D5B6AF07A84 /* ModuleReference.swift */,
+				BAC2D1DDD2B1226A79958F83FE669CBB /* NameCatalog.swift */,
+				DC0B96E94FC53729BC02F4165604FAE1 /* NibReference+Integrations.swift */,
+				28313CE81BB1121EE2A2DFA8317208D8 /* NibResource.swift */,
+				0177C65AB504B2C78FD3B6E241C2479C /* PropertyListResource.swift */,
+				204B166C0F283A59FF9A44C137581FBB /* Reusable.swift */,
+				C2BE450F43A7E63F11AB634633C929F8 /* ReuseIdentifier+Integrations.swift */,
+				57B450900BC5D17BF05928590AD21F5A /* SegueIdentifier+Integrations.swift */,
+				BABAB2832CF01DFF435768A41511FDC2 /* StoryboardReference.swift */,
+				36A97E35DC472B88FD5E7AE53C4D628A /* StoryboardReference+Integrations.swift */,
+				6BCB9F7B294CC2E2254656B434293C3F /* StoryboardResource.swift */,
+				F5EDA51709DCE6E160C4F9AF35517195 /* StringParam.swift */,
+				35D86EA2D4C5D0A1807E387FF9D7F88F /* StringParam+Extensions.swift */,
+				5DAED6201C4A1606BCB06D637EFF5727 /* StringResource.swift */,
+				5CE9B704173A47B82151C613BB3D70B8 /* StringResource+Integrations.swift */,
+				96AC89D8C285416EAFD69CDC726E0BFE /* StringsTable.swift */,
+				074843EC4F9983A13D708432CD7B4458 /* TypeReference.swift */,
+				29C482F10A390654E35292751252B7F3 /* Unifiable.swift */,
+				85928ED7BE492E4788AC5E1307424C78 /* ValidationError.swift */,
+				765F0263F867C16876ADF9339EEB9589 /* Support Files */,
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		722416D0A9F6E06C3F4B2B309043AE1A /* Pods-SQLiteCarDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				AAF62FFF1750C6164E6A41B800C91805 /* Pods-SQLiteCarDatabase.modulemap */,
+				B1770D8D5A331F403CA4CC1E47242F3D /* Pods-SQLiteCarDatabase-acknowledgements.markdown */,
+				E140A0F464C9E595AEE02472FC7077C8 /* Pods-SQLiteCarDatabase-acknowledgements.plist */,
+				626FFFC7E7B53BD643618F8D1F86FFD5 /* Pods-SQLiteCarDatabase-dummy.m */,
+				B257099744F0C798AC3F85CCC3873E83 /* Pods-SQLiteCarDatabase-frameworks.sh */,
+				FC31844B2EE1759D87D7B52EE32358A5 /* Pods-SQLiteCarDatabase-Info.plist */,
+				EFF82D28A4CC0C2818BD3FA4265717E2 /* Pods-SQLiteCarDatabase-umbrella.h */,
+				8F4C3D468238A793EAFD3C4B00946122 /* Pods-SQLiteCarDatabase.debug.xcconfig */,
+				9E56B46A6438F2EEDADA5177E7B13F48 /* Pods-SQLiteCarDatabase.release.xcconfig */,
+			);
+			name = "Pods-SQLiteCarDatabase";
+			path = "Target Support Files/Pods-SQLiteCarDatabase";
+			sourceTree = "<group>";
+		};
+		765F0263F867C16876ADF9339EEB9589 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB4BADBE5F8BC43F4B4BCE36886429 /* R.swift.modulemap */,
+				6DB09280D9A5975E77BED0B16FA79AB7 /* R.swift-dummy.m */,
+				EC6B7A553ACAD8CC5E24F5DE3919681B /* R.swift-Info.plist */,
+				E862454E3E303DD9D7CE69DC2F358ED6 /* R.swift-prefix.pch */,
+				CABDD3FC1FAAAF56AB86EC36E2DCC176 /* R.swift-umbrella.h */,
+				B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */,
+				9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+		9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669A6AE0DC95512B77AF70E53438F2C2 /* R.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2AEA0972278ED1FE2B3EC98F932C6F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722416D0A9F6E06C3F4B2B309043AE1A /* Pods-SQLiteCarDatabase */,
+				C8915A67D996BD83B8BEFE51C9062031 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */,
+				E6912BF28DABEB20DE66408E6B271E1E /* Pods-SQLiteCarDatabaseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7C13C77BE1BCBA70E18AC86837FD0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39275D270222E7DAD6F8BE35A1695E69 /* Pods-SQLiteCarDatabase */,
+				F545971A191C6E1B7777AB6050235A70 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */,
+				B2A67CC5077011EA87B5DED30A5BDCBD /* Pods-SQLiteCarDatabaseTests */,
+				3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8915A67D996BD83B8BEFE51C9062031 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C301A50304E9DD7337C6D3EF4FCCE19E /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.modulemap */,
+				90BDD5C04657651E31816D48DA16BA97 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.markdown */,
+				C491241F7F276878ABB6640114235CC3 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-acknowledgements.plist */,
+				063C9419AE41881B9830592748AE097F /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m */,
+				C9CD3A77090B01FB2F0933F9E5341D1D /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-frameworks.sh */,
+				6A6328711A4B7556A8DBC7EED8CCCD71 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-Info.plist */,
+				2A63DF3579CF16FB9FB714500E494A1E /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h */,
+				98C056F9952843C0B9698537F4A571FB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.debug.xcconfig */,
+				529520BF316A0D5157EEAC4D7A87C4BB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.release.xcconfig */,
+			);
+			name = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests";
+			path = "Target Support Files/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */,
+				C7C13C77BE1BCBA70E18AC86837FD0D3 /* Products */,
+				B2AEA0972278ED1FE2B3EC98F932C6F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6912BF28DABEB20DE66408E6B271E1E /* Pods-SQLiteCarDatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402641C26549271DE793F8118854B /* Pods-SQLiteCarDatabaseTests.modulemap */,
+				A241B63F0606DD7BCA9F553581FFC971 /* Pods-SQLiteCarDatabaseTests-acknowledgements.markdown */,
+				0D5B94FFFD496139409A62070C413FA0 /* Pods-SQLiteCarDatabaseTests-acknowledgements.plist */,
+				A76AEFCDF5F0C8C92E5A04B67AAD80C6 /* Pods-SQLiteCarDatabaseTests-dummy.m */,
+				65BDDAECE84C689969C427BAE2305F1C /* Pods-SQLiteCarDatabaseTests-Info.plist */,
+				EA11A2BA6D130775DE5BA395D3577F76 /* Pods-SQLiteCarDatabaseTests-umbrella.h */,
+				1639E2CFA49D8B437B2F2BCC2B21E9EB /* Pods-SQLiteCarDatabaseTests.debug.xcconfig */,
+				7890AD12FD86AF7D19C9FE9434CBD222 /* Pods-SQLiteCarDatabaseTests.release.xcconfig */,
+			);
+			name = "Pods-SQLiteCarDatabaseTests";
+			path = "Target Support Files/Pods-SQLiteCarDatabaseTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D287D3E3605D54AF1FC5DF0F7943E16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF22AFAFE107C997B0ACD7143A7938B /* Pods-SQLiteCarDatabase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0BD7161BE821F3674B5E2714E0552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D496175EBA3774AB22370C29FC0B97 /* Pods-SQLiteCarDatabaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DD90997D8295E9E178B8DEA444807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA4FDF159D2426DB93F592141534271 /* R.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B3065CBA392C2013168420F0957588 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CFC5496AE03F0A59BC7788A8C25810 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C81B5E5506421CD1FC3F28542618BCC /* Build configuration list for PBXNativeTarget "R.swift" */;
+			buildPhases = (
+				415DD90997D8295E9E178B8DEA444807 /* Headers */,
+				5DC87746025D02F2B9B1D45BE919E846 /* Sources */,
+				AA7CCC299FCFAEB895DECFA0EE3F745B /* Frameworks */,
+				5CDF2F6285DEFB77BED35F761C28EF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift;
+			productName = RswiftResources;
+			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		2805B6B03CD5D1FC980D53D108E65C2E /* Pods-SQLiteCarDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF9F65635CC51E6739828224F9A2FDF /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabaseTests" */;
+			buildPhases = (
+				2EB0BD7161BE821F3674B5E2714E0552 /* Headers */,
+				2C2427AC51F96C51266E4B1C16CFE572 /* Sources */,
+				20DD12B9024C10DE7B2332967DEFE52F /* Frameworks */,
+				569EC319B92BD62A2294AEA834F1540C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2429CA7AA41E4FB052A64728D1F8B634 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLiteCarDatabaseTests";
+			productName = Pods_SQLiteCarDatabaseTests;
+			productReference = B2A67CC5077011EA87B5DED30A5BDCBD /* Pods-SQLiteCarDatabaseTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF9B91A2E9E160FBBCEF85D249B35AB0 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0FA739B61B7A9934AC7066F34436CF /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests" */;
+			buildPhases = (
+				E8B3065CBA392C2013168420F0957588 /* Headers */,
+				97B64CF601CB31C1319501B1E5898FBB /* Sources */,
+				1D3872D7F60AC4BFDF1816AC7DA51FC7 /* Frameworks */,
+				FD35A93A1899A731C7CD38D662B8AEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B88A7D5B9B1E3CEE6554C6AED3B6E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests";
+			productName = Pods_SQLiteCarDatabase_SQLiteCarDatabaseUITests;
+			productReference = F545971A191C6E1B7777AB6050235A70 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC1CD86F0C3F9BDB76B88DBDD09A76DC /* Pods-SQLiteCarDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE1F8C1C1BDACECAEF437F616A75557 /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabase" */;
+			buildPhases = (
+				1D287D3E3605D54AF1FC5DF0F7943E16 /* Headers */,
+				9D08429AE64B88D6FEFC325F6F6C312A /* Sources */,
+				B687EBC723AF5B491D478F28AC16E59B /* Frameworks */,
+				FD50CA914F7D75AFB92C34182E4089A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E0AE02CC4B18CC1035E8AFD5760C0A /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLiteCarDatabase";
+			productName = Pods_SQLiteCarDatabase;
+			productReference = 39275D270222E7DAD6F8BE35A1695E69 /* Pods-SQLiteCarDatabase */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7C13C77BE1BCBA70E18AC86837FD0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1CD86F0C3F9BDB76B88DBDD09A76DC /* Pods-SQLiteCarDatabase */,
+				AF9B91A2E9E160FBBCEF85D249B35AB0 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests */,
+				2805B6B03CD5D1FC980D53D108E65C2E /* Pods-SQLiteCarDatabaseTests */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569EC319B92BD62A2294AEA834F1540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDF2F6285DEFB77BED35F761C28EF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35A93A1899A731C7CD38D662B8AEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD50CA914F7D75AFB92C34182E4089A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2427AC51F96C51266E4B1C16CFE572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36C7705D9128EA05833317ACD36737 /* Pods-SQLiteCarDatabaseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC87746025D02F2B9B1D45BE919E846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6792D7FE0D65D94BFAFF2D58DFC25D /* AssetCatalog.swift in Sources */,
+				F3620ACD4DD871900B4F47F927EDFD86 /* Bundle+Extensions.swift in Sources */,
+				ED60A5DC1FBA322B8829D17DACF25FC5 /* ColorResource.swift in Sources */,
+				020891B8DBB7563A45357ED261CD5FB3 /* ColorResource+Integrations.swift in Sources */,
+				76EBCA468C6E4B204D23D6CC37748BB8 /* DataResource.swift in Sources */,
+				C3E4AAD2EAB37883F5F361FA5DB5F20F /* DataResource+Integrations.swift in Sources */,
+				3CACC1BE73EC19170BE1F06DB01E4001 /* DeploymentTarget.swift in Sources */,
+				67A9C5A90CB423CF2ADD7F024937FDA6 /* FileResource.swift in Sources */,
+				31C6FEAB5D1205B6E687077AFFDE5384 /* FileResource+Integrations.swift in Sources */,
+				996918C542708D92D90A67FD1D16A4B3 /* FontResource.swift in Sources */,
+				1349234165FADA4114A6C9F7906D4349 /* FontResource+Integrations.swift in Sources */,
+				BC222EBB01AD730C4A2F245472EDFF72 /* ImageResource.swift in Sources */,
+				500EEC5A101486742FDEBA4251BFA340 /* ImageResource+Integrations.swift in Sources */,
+				C0382725FF8360EC4C26537FE319C1F2 /* LocaleReference.swift in Sources */,
+				9657283C2834C4C9A272E328101151F8 /* ModuleReference.swift in Sources */,
+				877D8F603DBCA622C99D71A6AF7AE861 /* NameCatalog.swift in Sources */,
+				B97A55F85AE8E29295FE4DCEFEE922B1 /* NibReference+Integrations.swift in Sources */,
+				3B3A25E4844013919D04B9475C39609D /* NibResource.swift in Sources */,
+				7FDC43F578BCF977616DCE517F634A8D /* PropertyListResource.swift in Sources */,
+				A5AAD357854CD447259D751B55D8D744 /* R.swift-dummy.m in Sources */,
+				0718CB1A15D89FACC437E38675703DD5 /* Reusable.swift in Sources */,
+				32EF1EF97440878F4F742A06F9173FB4 /* ReuseIdentifier+Integrations.swift in Sources */,
+				CEFC6C72EE2C964B0998FEC1B687FA6F /* SegueIdentifier+Integrations.swift in Sources */,
+				FBCF2E627085A82784544DF73801DB07 /* StoryboardReference.swift in Sources */,
+				D640820D8F2333F1FC2953B78D186FEF /* StoryboardReference+Integrations.swift in Sources */,
+				F36718AFEBB9AF283D159FD32544826E /* StoryboardResource.swift in Sources */,
+				27093D2C5DCCE8226BC0CAC93F924858 /* StringParam.swift in Sources */,
+				CA604F841BCE79F1A7B378583F794D6E /* StringParam+Extensions.swift in Sources */,
+				B30659D96396326C7A2CA95F524E0FA6 /* StringResource.swift in Sources */,
+				778866614CD49C69A0DCFF0198D4D0E2 /* StringResource+Integrations.swift in Sources */,
+				B8668BE11DEF6CB85A1ACFB2D4ABEDDA /* StringsTable.swift in Sources */,
+				9AF02522D5957F6CAD775F1AF2A03E6A /* TypeReference.swift in Sources */,
+				4F6FADA93E698823F866AD21EE09B4A8 /* Unifiable.swift in Sources */,
+				CB1D78A91078E4D00486A07F7D1449B7 /* ValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B64CF601CB31C1319501B1E5898FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFD8CF356572A67B8EAB4455CA2EF32 /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08429AE64B88D6FEFC325F6F6C312A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D62B796DD30B4B3AC0618AF7C0C12C0 /* Pods-SQLiteCarDatabase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2429CA7AA41E4FB052A64728D1F8B634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SQLiteCarDatabase";
+			target = FC1CD86F0C3F9BDB76B88DBDD09A76DC /* Pods-SQLiteCarDatabase */;
+			targetProxy = B45A692073CDB08939E4EF51FDB78E84 /* PBXContainerItemProxy */;
+		};
+		67E0AE02CC4B18CC1035E8AFD5760C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 10BDD51663CD2C924F84E3AF471E0753 /* PBXContainerItemProxy */;
+		};
+		7B88A7D5B9B1E3CEE6554C6AED3B6E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 22F599D910127081C98316A1195FFB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C565E057ED05DA1F28AC1D3EE9A27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E56B46A6438F2EEDADA5177E7B13F48 /* Pods-SQLiteCarDatabase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabase/Pods-SQLiteCarDatabase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabase/Pods-SQLiteCarDatabase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22994765433BFC69AB399BB0A365AF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1639E2CFA49D8B437B2F2BCC2B21E9EB /* Pods-SQLiteCarDatabaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabaseTests/Pods-SQLiteCarDatabaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabaseTests/Pods-SQLiteCarDatabaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56ED62BAF4642648E679689908EDD0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529520BF316A0D5157EEAC4D7A87C4BB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57079CB423776276EB3A5C6FEE61AD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9DE1B703FE4E18CB49FCF6FEB9B27E /* R.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift/R.swift.modulemap";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = RswiftResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58836F71C67374DABCA7257370EB5B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7890AD12FD86AF7D19C9FE9434CBD222 /* Pods-SQLiteCarDatabaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabaseTests/Pods-SQLiteCarDatabaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabaseTests/Pods-SQLiteCarDatabaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ABA94B5A146E8FB32EF2E8F69FED4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4C3D468238A793EAFD3C4B00946122 /* Pods-SQLiteCarDatabase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabase/Pods-SQLiteCarDatabase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabase/Pods-SQLiteCarDatabase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		618CFCD292927F58C6D763BBCE9281DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B832543EB5162D5B6457E2CF597E631D /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift/R.swift.modulemap";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = RswiftResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D3B0A3465A6F6D48A6726956AD5E950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C056F9952843C0B9698537F4A571FB /* Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests/Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE1F8C1C1BDACECAEF437F616A75557 /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABA94B5A146E8FB32EF2E8F69FED4BE /* Debug */,
+				12C565E057ED05DA1F28AC1D3EE9A27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C81B5E5506421CD1FC3F28542618BCC /* Build configuration list for PBXNativeTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618CFCD292927F58C6D763BBCE9281DB /* Debug */,
+				57079CB423776276EB3A5C6FEE61AD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF9F65635CC51E6739828224F9A2FDF /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22994765433BFC69AB399BB0A365AF43 /* Debug */,
+				58836F71C67374DABCA7257370EB5B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0FA739B61B7A9934AC7066F34436CF /* Build configuration list for PBXNativeTarget "Pods-SQLiteCarDatabase-SQLiteCarDatabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3B0A3465A6F6D48A6726956AD5E950 /* Debug */,
+				56ED62BAF4642648E679689908EDD0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
