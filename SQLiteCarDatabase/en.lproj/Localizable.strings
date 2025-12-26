@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SQLiteCarDatabase
+
+  Created by Hubert Krupa on 26/12/2025.
+  
+*/
+
+//Welcome Screen
+"welcome_screen_title_label_text" = "SQLite Car Database";
+"welcome_screen_go_to_database_button_text" = "Go to database";

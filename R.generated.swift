@@ -11,10 +11,20 @@ let R = _R(bundle: Bundle(for: BundleFinder.self))
 
 struct _R {
   let bundle: Foundation.Bundle
+  var string: string { .init(bundle: bundle, preferredLanguages: nil, locale: nil) }
   var color: color { .init(bundle: bundle) }
   var font: font { .init(bundle: bundle) }
   var file: file { .init(bundle: bundle) }
 
+  func string(bundle: Foundation.Bundle) -> string {
+    .init(bundle: bundle, preferredLanguages: nil, locale: nil)
+  }
+  func string(locale: Foundation.Locale) -> string {
+    .init(bundle: bundle, preferredLanguages: nil, locale: locale)
+  }
+  func string(preferredLanguages: [String], locale: Locale? = nil) -> string {
+    .init(bundle: bundle, preferredLanguages: preferredLanguages, locale: locale)
+  }
   func color(bundle: Foundation.Bundle) -> color {
     .init(bundle: bundle)
   }
@@ -30,6 +40,38 @@ struct _R {
 
   struct project {
     let developmentRegion = "en"
+  }
+
+  /// This `_R.string` struct is generated, and contains static references to 1 localization tables.
+  struct string {
+    let bundle: Foundation.Bundle
+    let preferredLanguages: [String]?
+    let locale: Locale?
+    var localizable: localizable { .init(source: .init(bundle: bundle, tableName: "Localizable", preferredLanguages: preferredLanguages, locale: locale)) }
+
+    func localizable(preferredLanguages: [String]) -> localizable {
+      .init(source: .init(bundle: bundle, tableName: "Localizable", preferredLanguages: preferredLanguages, locale: locale))
+    }
+
+
+    /// This `_R.string.localizable` struct is generated, and contains static references to 2 localization keys.
+    struct localizable {
+      let source: RswiftResources.StringResource.Source
+
+      /// en translation: Go to database
+      ///
+      /// Key: welcome_screen_go_to_database_button_text
+      ///
+      /// Locales: en
+      var welcome_screen_go_to_database_button_text: RswiftResources.StringResource { .init(key: "welcome_screen_go_to_database_button_text", tableName: "Localizable", source: source, developmentValue: "Go to database", comment: nil) }
+
+      /// en translation: SQLite Car Database
+      ///
+      /// Key: welcome_screen_title_label_text
+      ///
+      /// Locales: en
+      var welcome_screen_title_label_text: RswiftResources.StringResource { .init(key: "welcome_screen_title_label_text", tableName: "Localizable", source: source, developmentValue: "SQLite Car Database", comment: nil) }
+    }
   }
 
   /// This `_R.color` struct is generated, and contains static references to 1 colors.
