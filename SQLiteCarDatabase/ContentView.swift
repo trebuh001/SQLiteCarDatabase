@@ -22,6 +22,9 @@ struct ContentView: View {
                 .padding(.horizontal, 16)
             }
         }
+        .onAppear {
+            SQLiteDB.instance.createTable()
+        }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.green)
     }

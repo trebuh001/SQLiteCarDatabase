@@ -7,6 +7,7 @@ target 'SQLiteCarDatabase' do
 
   # Pods for SQLiteCarDatabase
   pod 'R.swift'
+  pod 'SQLite.swift', '~> 0.15.4'
 
   target 'SQLiteCarDatabaseTests' do
     inherit! :search_paths

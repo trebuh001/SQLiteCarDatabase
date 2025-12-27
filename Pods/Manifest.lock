@@ -1,16 +1,22 @@
 PODS:
   - R.swift (7.8.0)
+  - SQLite.swift (0.15.4):
+    - SQLite.swift/standard (= 0.15.4)
+  - SQLite.swift/standard (0.15.4)
 
 DEPENDENCIES:
   - R.swift
+  - SQLite.swift (~> 0.15.4)
 
 SPEC REPOS:
   trunk:
     - R.swift
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   R.swift: f573269ca45b2ab066c082e363dd4c2b297b0d71
+  SQLite.swift: a107c734115fea616a4ad31371d39f1637e8de56
 
-PODFILE CHECKSUM: 6fdfe49c0392aecbce4eca185df58e16628f2a42
+PODFILE CHECKSUM: 004ca1d8f95854694297d0405a846e7a186c62b0
 
 COCOAPODS: 1.16.2
