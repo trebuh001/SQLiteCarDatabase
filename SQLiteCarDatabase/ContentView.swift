@@ -14,6 +14,8 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     titleLabel
+
+                    iconImage
                     
                     goToDatabaseButton
                     
@@ -33,6 +35,14 @@ struct ContentView: View {
         Text(R.string.localizable.welcome_screen_title_label_text)
             .font(.custom(R.font.robotoBold, size: 24))
             .padding(.top, 16)
+    }
+    
+    private var iconImage: some View {
+        Image(systemName: "cube.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 300, height: 300)
+            .padding(.vertical, 60)
     }
     
     private var goToDatabaseButton: some View {

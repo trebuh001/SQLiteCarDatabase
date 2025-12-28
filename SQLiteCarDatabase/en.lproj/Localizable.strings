@@ -7,5 +7,5 @@
 */
 
 //Welcome Screen
-"welcome_screen_title_label_text" = "SQLite Car Database";
+"welcome_screen_title_label_text" = "Cars Database";
 "welcome_screen_go_to_database_button_text" = "Go to database";

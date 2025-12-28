@@ -65,12 +65,12 @@ struct _R {
       /// Locales: en
       var welcome_screen_go_to_database_button_text: RswiftResources.StringResource { .init(key: "welcome_screen_go_to_database_button_text", tableName: "Localizable", source: source, developmentValue: "Go to database", comment: nil) }
 
-      /// en translation: SQLite Car Database
+      /// en translation: Cars Database
       ///
       /// Key: welcome_screen_title_label_text
       ///
       /// Locales: en
-      var welcome_screen_title_label_text: RswiftResources.StringResource { .init(key: "welcome_screen_title_label_text", tableName: "Localizable", source: source, developmentValue: "SQLite Car Database", comment: nil) }
+      var welcome_screen_title_label_text: RswiftResources.StringResource { .init(key: "welcome_screen_title_label_text", tableName: "Localizable", source: source, developmentValue: "Cars Database", comment: nil) }
     }
   }
 
