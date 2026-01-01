@@ -6,13 +6,58 @@
 //
 
 import SwiftUI
+import RswiftResources
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("SQLite Car Database Project")
+        ZStack {
+            ScrollView {
+                VStack {
+                    titleLabel
+
+                    iconImage
+                    
+                    goToDatabaseButton
+                    
+                    Spacer()
+                }
+                .padding(.horizontal, 16)
+            }
         }
-        .padding()
+        .onAppear {
+            SQLiteDB.instance.createTable()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.green)
+    }
+    
+    private var titleLabel: some View {
+        Text(R.string.localizable.welcome_screen_title_label_text)
+            .font(.custom(R.font.robotoBold, size: 24))
+            .padding(.top, 16)
+    }
+    
+    private var iconImage: some View {
+        Image(systemName: "cube.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 300, height: 300)
+            .padding(.vertical, 60)
+    }
+    
+    private var goToDatabaseButton: some View {
+        Button {
+            //TODO: logic if needed
+            
+        } label: {
+            Text(R.string.localizable.welcome_screen_go_to_database_button_text)
+                .font(.custom(R.font.robotoBold, size: 16))
+                .foregroundStyle(.black)
+                .frame(maxWidth: .infinity)
+                .frame(height: 48)
+        }
+        .background(.gray)
+        .cornerRadius(12)
     }
 }
 
