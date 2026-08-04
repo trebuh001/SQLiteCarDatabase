@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct SQLiteCarDatabaseApp: App {
+    
+    @StateObject private var router = NavigationRouter()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $router.path) {
+                ContentView()
+                    .environmentObject(router)
+                    .navigationDestination(for: Route.self) { route in
+                        route
+                    }
+            }
         }
     }
 }

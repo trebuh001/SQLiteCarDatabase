@@ -9,6 +9,9 @@ import SwiftUI
 import RswiftResources
 
 struct ContentView: View {
+    
+    @EnvironmentObject var router: NavigationRouter
+    
     var body: some View {
         ZStack {
             ScrollView {
@@ -47,8 +50,7 @@ struct ContentView: View {
     
     private var goToDatabaseButton: some View {
         Button {
-            //TODO: logic if needed
-            
+            router.navigate(to: .mainDatabaseView)
         } label: {
             Text(R.string.localizable.welcome_screen_go_to_database_button_text)
                 .font(.custom(R.font.robotoBold, size: 16))

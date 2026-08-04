@@ -47,7 +47,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4BEE6F942EFBF95A005CEDCF /* Exceptions for "SQLiteCarDatabase" folder in "SQLiteCarDatabase" target */ = {
+		4BA89EBE3000028000907FF9 /* Exceptions for "SQLiteCarDatabase" folder in "SQLiteCarDatabase" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -57,14 +57,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4BEE6F942EFBF95A005CEDCF /* Exceptions for "SQLiteCarDatabase" folder in "SQLiteCarDatabase" target */,
-			);
-			path = SQLiteCarDatabase;
-			sourceTree = "<group>";
-		};
 		4B94B14C2EFAA48F0034EE3E /* SQLiteCarDatabaseTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SQLiteCarDatabaseTests;
@@ -73,6 +65,14 @@
 		4B94B1562EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SQLiteCarDatabaseUITests;
+			sourceTree = "<group>";
+		};
+		4BA89EB33000028000907FF9 /* SQLiteCarDatabase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4BA89EBE3000028000907FF9 /* Exceptions for "SQLiteCarDatabase" folder in "SQLiteCarDatabase" target */,
+			);
+			path = SQLiteCarDatabase;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -131,7 +131,7 @@
 		4B94B1332EFAA48E0034EE3E = {
 			isa = PBXGroup;
 			children = (
-				4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */,
+				4BA89EB33000028000907FF9 /* SQLiteCarDatabase */,
 				4B94B14C2EFAA48F0034EE3E /* SQLiteCarDatabaseTests */,
 				4B94B1562EFAA48F0034EE3E /* SQLiteCarDatabaseUITests */,
 				4B94B13D2EFAA48E0034EE3E /* Products */,
@@ -170,7 +170,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4B94B13E2EFAA48E0034EE3E /* SQLiteCarDatabase */,
+				4BA89EB33000028000907FF9 /* SQLiteCarDatabase */,
 			);
 			name = SQLiteCarDatabase;
 			productName = SQLiteCarDatabase;
